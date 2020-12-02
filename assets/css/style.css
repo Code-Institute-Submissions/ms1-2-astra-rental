@@ -2,13 +2,13 @@
 * {
     margin: 0;
     padding: 0;
-
 }
 
 body {
   font-family: Oswald;
   padding-top: 3rem;
   color: #5a5a5a;
+  
 }
 
 
@@ -114,7 +114,90 @@ section{
 /* bottom info - footer*/
 
 footer {
-background-color: #ffcc00;
+background-color: #222222;
+height: auto;
+width: 100%;
+padding-top: 40px;
+color: rgb(255, 255, 255);
 }
 
+.footer-content {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+}
+
+.socials {
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px 0 20px 0;
+}
+
+.socials li {
+margin: 0 30px;
+}
+
+.fa-angle-double-down {
+    color: rgb(255, 217, 0);
+}
+
+.fa-facebook {
+    color: rgb(45, 102, 207);
+}
+
+.fa-twitter {
+    color: rgb(65, 179, 255);
+}
+
+.fa-youtube {
+    color: rgb(189, 0, 0);
+}
+
+.fa-instagram {
+    color: rgb(204, 37, 115);
+}
+
+.socials a {
+text-decoration: none;
+color: rgb(126, 126, 126);
+}
+
+.socials a i {
+    font-size: 2.5rem;
+    transition: color .2s ease;
+}
+
+.socials a:hover i {
+    color: rgb(254, 255, 192);
+}
+
+
+.footer-bottom {
+    background-color: black;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+   text-transform: uppercase;
+   opacity: 0.7;
+   font-weight: 300;
+   margin: 10px auto;
+}
 /* end bottom info */
