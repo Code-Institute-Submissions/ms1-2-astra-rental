@@ -6,7 +6,15 @@
 }
 
 body {
-    font-family: Oswald;
+  font-family: Oswald;
+  padding-top: 3rem;
+  color: #5a5a5a;
+}
+
+
+section{
+    width: 100%;
+    height: 80vh;
 }
 
 /* Navbar */
@@ -34,13 +42,37 @@ body {
 /* end Navbar */
 
 
+/* CAROUSEL */
 
-/* Containers and sections */
-
-section {
-    width: 100%;
-    height: 80%;
+.carousel-item {
+  height: 80vh;
 }
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* end CAROUSEL */
+
+/* About us */
+#aboutus {
+    background-color:rgb(255, 208, 0);
+}
+/* end About us */
+
+
+/* Bikes */
+#bikes {
+    background-color:rgb(255, 166, 0);
+}
+/* end Bikes */
+
+
+/* SIGNUP */
+
 
 .container-wrapper--black {
     background-color: black;
@@ -48,13 +80,12 @@ section {
 }
 
 .callout-container {
-    height: 100vh;
+    height: 50%;
     background: url('../images/cross-background.jpeg') no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -74,31 +105,9 @@ section {
     padding-bottom: 75px;
 }
 
-/* end Containers and sections*/
+/* end SIGNUP */
 
 
-/* Carousel base class */
-.carousel {
-  margin-bottom: 4rem;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-
-/* Declare heights because of positioning of img element */
-.carousel-item {
-  height: 42rem;
-}
-.carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 32rem;
-}
 
 
 
