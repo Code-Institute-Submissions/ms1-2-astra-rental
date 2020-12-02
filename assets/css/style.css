@@ -24,16 +24,23 @@ body {
     position: relative;
 }
 
-/* Navbar */
-
-.navalert-container {
-    position: fixed;
+.opaque-overlay {
+    position: absolute;
     top: 0;
     left: 0;
-    z-index: 1;
-    padding-left: 0;
-    padding-right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
 }
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* end Containers */
+
+/* Navbar */
 
 .navbar {
     margin-bottom: 0;
@@ -57,12 +64,40 @@ body {
 
 /* end Navbar */
 
+/* CUSTOMIZE THE CAROUSEL */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
 
 
-/* bottom info */
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 42rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* bottom info - footer*/
+footer {
+background-color: #ffcc00;
+}
 
 .bottom-info p {
 text-align:center;
 }
+
+
 
 /* end bottom info */
