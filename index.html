@@ -12,7 +12,7 @@
 
 <body>
 
-    <!-- Navigation bar -->
+    <!-- Navigation bar 
 <div class="navbar-div">
     <div class="container-fluid navalert-container">
         
@@ -28,9 +28,9 @@
                     
                     <li class="nav-item mr-2"><a class="nav-link" href="bikes.html">Rent your Bike</a></li>
                     
-                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href=".html">Contact Us</a></li>
                     
-                    <li class="d-sm-none nav-item mr-2"><a class="nav-link" href="login.html">Log in</a></li>
+                    <li class="d-sm-none nav-item mr-2"><a class="nav-link" href=".html">Log in</a></li>
 
                 </ul>
             </div>
@@ -43,61 +43,34 @@
     </div>
 
 
-<!-- /.Navigation bar -->
+ /.Navigation bar -->
 
 
 <!-- Navigation bar 2-->
 <div>
-<nav class="navbar navbar-dark fixed-top bg-dark navbar-expand-md">
+<nav class="navbar navbar-dark fixed-top bg-dark navbar-expand-sm">
     <a class="navbar-brand" href="#">Carousel</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#">Disabled</a>
-        </li>
+       
+        <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+       
+        <li class="nav-item"> <a class="nav-link" href="#bikes">Bikes</a></li>
+      
+        <li class="nav-item"> <a class="nav-link " href="#contact">Sign up</a></li>
       </ul>
     </div>
   </nav>
 </div>
   <!-- /.Navigation bar 2-->
-</div>
-<!-- Callout 
 
-    <div class="container-fluid callout-container"> 
-      <div class="opaque-overlay">&nbsp;</div>
-        <div class="row">
-            <div class="col-12">
-                
-                <section class="callout jumbotron text-center">
 
-                    <h1 class="jumbotron-header">start running with us!</h1>
+<!-- carousel / home-->
 
-                    <hr class="block-divider block-divider--yellow">
-
-                    <p class="lead"> Astra rental is an exclusive service that gives you the opportunity to enjoy professional dirty bikes.<br>Start using our bikes today and be ready to BRAAAAAP!
-      
-                    <span class="d-inline d-sm-none"><br></span></p>
-
-                    <button class="btn btn-lg btn--cta btn--yellow" data-toggle="modal" data-target="#signUpModal">SIGN UP TODAY!</button>
-
-                </section>
-
-            </div>
-        </div>    
-    </div>
-    
-<!-- /.callout -->  
-
-<!-- carousel -->
+<section id="home">
 <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 00px;">
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -146,9 +119,46 @@
     </a>
   </div>
 
+</section>
+
+<section id="bikes">
+</section >
+
+<section id="contact">
+<!-- Callout -->
+
+    <div class="container-fluid callout-container"> 
+      <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-12">
+                
+                <section class="callout jumbotron text-center">
+
+                    <h1 class="jumbotron-header">start running with us!</h1>
+
+                    <hr class="block-divider block-divider--yellow">
+
+                    <p class="lead"> Astra rental is an exclusive service that gives you the opportunity to enjoy professional dirty bikes.<br>Start using our bikes today and be ready to BRAAAAAP!
+      
+                    <span class="d-inline d-sm-none"><br></span></p>
+
+                    <button class="btn btn-lg btn--cta btn--yellow" data-toggle="modal" data-target="#signUpModal">SIGN UP TODAY!</button>
+
+                </section>
+
+            </div>
+        </div>    
+    </div>
+    
+<!-- /.callout -->  
+</section>
+
+
+
 <!-- /.carousel -->
 
-<!-- bottom info -->
+
+<section id="info-page"><!-- bottom info -->
 
      <footer>
               <div class="row bottom-info">
@@ -162,6 +172,47 @@ Phone: +000 000 00000</p></div>
      </footer>
 
 <!-- /.bottom info --> 
+
+</section>
+
+
+<!-- signup form-->
+  
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign up </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form action="login.html">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">Create your profile in order to earn points every time you ride with us!
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                       
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- /.sign up form-->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
