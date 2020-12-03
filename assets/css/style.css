@@ -12,10 +12,27 @@ body {
 }
 
 
-section{
+#home {
     width: 100%;
     height: 80vh;
 }
+
+#aboutus {
+    width: 100%;
+    height: 80vh;
+}
+
+#bikes {
+    width: 100%;
+    height: 80vh;
+}
+
+#reviews {
+    width: 100%;
+    height: auto;
+}
+
+
 
 /* Navbar */
 
@@ -47,6 +64,7 @@ section{
 .carousel-item {
   height: 80vh;
 }
+
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -57,68 +75,74 @@ section{
 
 /* end CAROUSEL */
 
-/* About us */
+
+
+/* ABOUTUS */
 #aboutus {
     background-color:rgb(255, 208, 0);
 }
-/* end About us */
+/* end ABOUTUS */
 
 
-/* Bikes */
+
+/* Featurettes */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* BIKES */
 #bikes {
     background-color:rgb(255, 166, 0);
 }
-/* end Bikes */
+/* end BIKES */
 
 
-/* SIGNUP */
 
 
-.container-wrapper--black {
-    background-color: black;
-    color: white;
+/* RESPONSIVE CSS */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
 }
 
-.callout-container {
-    height: 50%;
-    background: url('../images/cross-background.jpeg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
 }
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-
-/* end SIGNUP */
-
-
-
 
 
 /* bottom info - footer*/
 
 footer {
+position: absolute;
+bottom: 0;
+right: 0;
+left:0;
 background-color: #222222;
 height: auto;
 width: 100%;
 padding-top: 40px;
 color: rgb(255, 255, 255);
+
 }
 
 .footer-content {
