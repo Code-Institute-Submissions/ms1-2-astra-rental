@@ -13,28 +13,6 @@ body {
 }
 
 
-#home {
-    width: 100%;
-    height: 80vh;
-}
-
-#aboutus {
-    width: 100%;
-    height: 80vh;
-}
-
-#bikes {
-    width: 100%;
-    height: 80vh;
-}
-
-#reviews {
-    width: 100%;
-    height: auto;
-}
-
-
-
 /* NAVBAR */
 
 .navbar {
@@ -61,7 +39,12 @@ body {
 
 
 
-/* CAROUSEL */
+/* CAROUSEL - home */
+
+#home {
+    width: 100%;
+    height: 80vh;
+}
 
 .carousel-item {
   height: 80vh;
@@ -82,32 +65,52 @@ body {
 /* ABOUTUS */
 #aboutus {
     background-color:rgb(255, 208, 0);
+    width: 100%;
+    height: 80vh;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
+
 /* end ABOUTUS */
 
 
 
-/* Featurettes */
+/* BIKES */
 
-.featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+#bikes {
+    background-color:rgb(255, 166, 0);
+     width: 100%;
+    height: 80vh;
 }
 
-/* Thin out the marketing headings */
+/* end BIKES */
+
+
+
+/* REVIEWS */
+
+#reviews {
+    width: 100%;
+    height: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
   letter-spacing: -.05rem;
 }
 
-
-/* BIKES */
-#bikes {
-    background-color:rgb(255, 166, 0);
-}
-/* end BIKES */
-
-
+/* end REVIEWS */
 
 
 /* RESPONSIVE CSS */
