@@ -52,11 +52,36 @@ body {
   height: 80vh;
   background-color: black;
   color: white;
-  background-position:center;
-  background-size:cover;ì
 }
 
+#slide-1 {
+  background: url('../images/cross-background.jpeg') no-repeat center;
+  background-position:center;
+  background-size:cover;
+}
 
+#slide-2 {
+  background: url('../images/bikes-s.jpg') no-repeat center;
+  background-position:center;
+  background-size:cover;
+}
+
+#slide-3 {
+  background: url('../images/cross-bg.jpg') no-repeat center;
+  background-position:center;
+  background-size:cover;
+}
+
+.overlay-image {
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ top:0;
+ background-position:center;
+ background-size:cover;
+ background-color: rgba(0, 0, 0, .55);
+}
 
 
 /* end CAROUSEL */
