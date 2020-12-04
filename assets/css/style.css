@@ -41,32 +41,27 @@ body {
 
 /* CAROUSEL - home */
 
+
+
 #home {
     width: 100%;
-    height: 80vh;
+
 }
 
-.first-slide {
-    background: url('../images/cross-background.jpeg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
+.slide-1 {
+    color: white;
+    background-position:center;
+    background-size:cover;
+    background-color: black;
+ /*  background:url('assets/images/cross-background.jpeg'); */
 }
 
 .carousel-item {
   height: 80vh;
 }
 
-.carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 32rem;
-}
+
+
 
 /* end CAROUSEL */
 
