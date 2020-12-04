@@ -46,7 +46,15 @@ body {
     height: 80vh;
 }
 
-
+.first-slide {
+    background: url('../images/cross-background.jpeg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
 
 .carousel-item {
   height: 80vh;
@@ -227,8 +235,7 @@ color: rgb(126, 126, 126);
 
 /* RESPONSIVE CSS */
 
-@media (min-width: 40em) {
-  /* Bump up size of carousel content */
+@media (min-width: 830px) {
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
