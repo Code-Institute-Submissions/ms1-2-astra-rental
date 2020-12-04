@@ -44,20 +44,16 @@ body {
 
 
 #home {
-    width: 100%;
-
-}
-
-.slide-1 {
-    color: white;
-    background-position:center;
-    background-size:cover;
-    background-color: black;
- /*  background:url('assets/images/cross-background.jpeg'); */
-}
+ width: 100%;
+ background-color: black;
+}   
 
 .carousel-item {
   height: 80vh;
+  background-color: black;
+  color: white;
+  background-position:center;
+  background-size:cover;ì
 }
 
 
