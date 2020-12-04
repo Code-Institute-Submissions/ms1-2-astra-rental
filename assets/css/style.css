@@ -113,11 +113,19 @@ text-align: center;
 #bikes {
     background-color:rgb(168, 168, 168);
     width: 100%;
-    height: 80vh;
+    height: auto;
 }
 
 #bikes > p {
 text-align: center;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
 }
 
 /* end BIKES */
@@ -140,7 +148,7 @@ text-align: center;
 }
 
 .featurette-divider {
-  margin: 5rem 0; 
+  margin: 2rem 0; 
 }
 
 .featurette-heading {
