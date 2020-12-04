@@ -19,7 +19,7 @@ body {
     margin-bottom: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 1.0);
-    border: 0;
+    border-bottom: 1px solid rgb(130, 130, 130);
     text-transform: uppercase;    
 }
 
@@ -126,18 +126,16 @@ text-align: center;
 }
 
 .card-body {
-padding: 40px;
+padding: 40px 50px 40px 40px;
+}
 
+#card-1 {
+/*hover effect to be added*/
 }
-/*
-.card-deck .card {
-  min-width: 520px;
-}
-*/
+
 .deck-1 {
     color:black;
     padding-bottom:30px;
-
 }
 
 
