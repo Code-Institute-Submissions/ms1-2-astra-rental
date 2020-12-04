@@ -129,16 +129,26 @@ text-align: center;
 padding: 40px 50px 40px 40px;
 }
 
-#card-1 {
-/*hover effect to be added*/
-}
-
 .deck-1 {
     color:black;
     padding-bottom:30px;
 }
 
+/*hover cards' transition*/
+#card-h1:hover {
+transform: scale(1.05);
+transition: 1s;
+}
 
+#card-h2:hover {
+transform: scale(1.05);
+transition: 1s;
+}
+
+#card-h3:hover {
+transform: scale(1.05);
+transition: 1s;
+}
 /* end BIKES */
 
 
