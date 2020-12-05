@@ -6,12 +6,14 @@
 
 body {
   font-family: Oswald;
-  padding-top: 3rem;
   padding-bottom: 371px;
   color: #5a5a5a;
   position: relative;
 }
 
+section {
+    padding-top:57px;
+}
 
 /* NAVBAR */
 
@@ -27,10 +29,6 @@ body {
     border: 0;
 }
 
-.navbar .navbar-brand {
-    font-weight: bold;
-}
-
 .navbar .navbar-nav a {
     font-weight: bold;
 }
@@ -40,8 +38,6 @@ body {
 
 
 /* CAROUSEL - home */
-
-
 
 #home {
  width: 100%;
@@ -80,9 +76,23 @@ body {
  top:0;
  background-position:center;
  background-size:cover;
- background-color: rgba(0, 0, 0, .55);
+ background-color: rgba(0, 0, 0, .6);
+}
+/**/
+.btn--yellow {
+    color: rgb(26, 25, 25);
+    background-color: #F9D107;
+    border-color: rgb(168, 143, 0);
 }
 
+.btn--yellow:hover,
+.btn--yellow:active,
+.btn--yellow:focus,
+.btn--yellow:active:focus {
+    background-color: #000000;
+    border-color:#69605e; 
+    color: #F9D107;
+}
 
 /* end CAROUSEL */
 
@@ -168,6 +178,10 @@ transition: 1s;
 text-align: center;
 }
 
+#reviews > h2 {
+color: rgb(47, 73, 162);
+}
+
 .featurette-divider {
   margin: 2rem 0; 
 }
@@ -177,6 +191,7 @@ text-align: center;
   line-height: 1;
   letter-spacing: -.05rem;
 }
+
 
 /* end REVIEWS */
 
@@ -286,6 +301,19 @@ color: rgb(126, 126, 126);
     font-size: 1.25rem;
     line-height: 1.4;
   }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+@media (min-width: 40em) {
 
   .featurette-heading {
     font-size: 50px;

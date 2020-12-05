@@ -121,11 +121,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - on very small devices, the main divs and text might be cutted on top
 
-### Fixed bugs
+### Fixed bugs, respective solutions
 - navbar bottom could have been confused with the background, added a small border
-- navbar animations don't follow you whenever you scroll the page
-- section's top are a bit cropped when you click on the navbar's links, needed to ad some room
-- couldn't add a backgroung image to carousel's slides
+- navbar animations don't follow you whenever you scroll the page, added a scrollspy component
+- section's top are a bit cropped when you click on the navbar's links, needed to add some padding
+- couldn't add a backgroung image to carousel's slides, rebuilt the carousel manually and fixed the img paths
 
 ## Credits
 
