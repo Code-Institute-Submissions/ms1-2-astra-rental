@@ -103,7 +103,7 @@ section {
 #aboutus {
     background-color:rgb(196, 196, 196);
     width: 100%;
-    height: 80vh;
+    height: auto;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -111,7 +111,11 @@ section {
 }
 
 #aboutus > p {
-text-align: center;
+text-align: center !important;
+}
+
+.location-wrapper{
+  padding: 5%;
 }
 
 /* end ABOUTUS */
