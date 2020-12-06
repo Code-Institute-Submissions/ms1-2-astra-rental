@@ -78,7 +78,7 @@ section {
  background-size:cover;
  background-color: rgba(0, 0, 0, .6);
 }
-/**/
+
 .btn--yellow {
     color: rgb(26, 25, 25);
     background-color: #F9D107;
@@ -104,19 +104,15 @@ section {
     background-color:rgb(196, 196, 196);
     width: 100%;
     height: auto;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom:40px;
 }
 
 #aboutus > p {
 text-align: center !important;
 }
 
-.location-wrapper{
-  padding: 5%;
-}
 
 /* end ABOUTUS */
 
