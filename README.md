@@ -12,16 +12,16 @@ Simone Casoni's first Milestone project:
 
 # Introduction
 
-"Astra rental" is a motorcycles rental company that aim to offer the opportunity to ride motocross bikes of different engine sizes, and strokes, currently based in Dublin.<br> 
+"Astra rental" is a motorcycles rental company that aims to offer the opportunity to ride motocross bikes of different engine sizes, and strokes, currently based in Dublin.<br> 
 
 _Please, note that this site portrays a fictitious business, created purely for the purpose of this exercise. This will be my Milestone Project second attempt for the Code Institute Diploma in Full Stack Development._ <br>
 
-Moreover, for this second attempt, I decided to rebuilt a new website using a single page structure with multiple sections. I'd also like to apologise for have used the word "inspired" instead of "used" in my previous submission, and thank the assessment team for feedback. 
+Moreover, for this second attempt, I decided to rebuild a new website using a single page structure with multiple sections. I'd also like to apologise for have used the word "inspired" instead of "used" in my previous submission, and thank the assessment team for feedback. 
 
 ## UX
 
 ### Design
-I wanted to create a clean website where users could directly undestrand its purpose. In order to accomplish that, the home page shows you a carousel comprehensive of our 3 main topics: "WHO AND WHERE", "OUR BIKES", and "REVIEWS".  
+I wanted to create a clean website where users could directly understand its purpose. In order to accomplish that, the home page shows you a carousel comprehensive of our 3 main topics: "WHO AND WHERE", "OUR BIKES", and "REVIEWS".  
 
 ### Colour Scheme
 
@@ -63,10 +63,10 @@ I wanted to create a clean website where users could directly undestrand its pur
 
 - Responsive on all device sizes
 - Moving carousel, to show immediately every content 
-- Interactive bottons in the carousel (if you leave your cursor above them, they will stop the sliding. They also redirect you to the respective section)
-- Navbar menu, with the resspective sections redirects
-- Scrollspy function to help you visualizing where you are
-- When you pass above the bikes cards, they will expand a bit, to help you focusing on them
+- Interactive buttons in the carousel (if you leave your cursor above them, they will stop the sliding. They also redirect you to the respective section)
+- Navbar menu, with the respective sections redirects
+- Scrollspy function to help you visualize where you are
+- When you pass above the bikes cards, they will expand a bit, to help you focus on them
 - Google maps interactive window 
 
 
@@ -100,7 +100,7 @@ I wanted to create a clean website where users could directly undestrand its pur
 
 5. [GitHub:](https://github.com/)
 
-- GitHub is used to store the projects code after being pushed from Git.
+- GitHub is used to store the project's code after being pushed from Git.
 
 6.  [https://tinypng.com/](https://tinypng.com/)
 - Let me save almost 61% of spaces occupied by images and speeding up the website loading
@@ -176,13 +176,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - section's tops are a bit cropped when you click on the navbar's links<br>
   -> added some padding on the top
   
-- couldn't add a backgroung image to carousel's slides<br>
+- couldn't add a background image to carousel's slides<br>
   -> rebuilt the carousel manually and fixed the img paths
 
 - couldn't center the google maps location<br>
   -> fixed it through bootstrap column method and by adjusting the inner div responsiveness 
 
-- Navbar wasn't collapsing after clicking on link<br>
+- Navbar wasn't collapsing after clicking on links<br>
   -> Added " data-target=".navbar-collapse" data-toggle="collapse" " to the Navbar Link's Div
 
 ## Credits
@@ -199,7 +199,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -  [Am I Responsive](http://ami.responsivedesign.is/)  for the image used in the UX section showing the different screen sizes.
 -  [Favicon](https://www.favicon.io/)  for the thumbnail icon on the internet tab header
 - [https://tinypng.com/](https://tinypng.com/) for letting me show how much spaced i saved
-- [Google](https://www.google.com/), for all the images i've found
+- [Google](https://www.google.com/), for all the images I've found
  
 ### Acknowledgements and Thanks
 
@@ -213,4 +213,4 @@ I would like to mention all the different resources and sites that are out there
 -   Slack
 -   coffee (!important)
 -   Assessment Team<br>
-And lastly, I could not leave out the Code Institute team: Alex who has been so comprehensive and kind, my mentor Felipe Souza Alarcon for his help and advices during this project, his flexibility and availability.
+And lastly, I could not leave out the Code Institute team: Alex who has been so comprehensive and kind, my mentor Felipe Souza Alarcon for his help and advice during this project, his flexibility and availability.
