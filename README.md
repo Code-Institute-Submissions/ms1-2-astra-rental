@@ -18,7 +18,7 @@ _Please, note that this site portrays a fictitious business, created purely for 
 ## UX
 
 ### Design
-I wanted to create a clean website where users could directly undestrand its purpose. In order to accomplish that, the home page shows you a carousel comprehensive of our 3 main purposes: "WHO AND WHERE", "OUR BIKES", and "REVIEWS".  
+I wanted to create a clean website where users could directly undestrand its purpose. In order to accomplish that, the home page shows you a carousel comprehensive of our 3 main topics: "WHO AND WHERE", "OUR BIKES", and "REVIEWS".  
 
 ### Colour Scheme
 
