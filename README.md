@@ -5,10 +5,9 @@
 # Astra rental Website
 
 Simone Casoni's first Milestone project:
+- [Gitpod](https://simocaso.github.io/ms1.2-astra-rental/)
+- [Repl](https://astra-rental-ms1-2--simonecasoni.repl.co/)
 
-[View the live project here.](https://astra-rental-ms1-2--simonecasoni.repl.co/)
-or here : https://simocaso.github.io/ms1.2-astra-rental/
-(uncompleted project, i was unable to use gitpod, no more hours available)
 
 
 # Introduction
