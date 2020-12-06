@@ -14,7 +14,9 @@ Simone Casoni's first Milestone project:
 
 "Astra rental" is a motorcycles rental company that aim to offer the opportunity to ride motocross bikes of different engine sizes, and strokes, currently based in Dublin.<br> 
 
-_Please, note that this site portrays a fictitious business, created purely for the purpose of this exercise. This will be my Milestone Project second attempt for the Code Institute Diploma in Full Stack Development._
+_Please, note that this site portrays a fictitious business, created purely for the purpose of this exercise. This will be my Milestone Project second attempt for the Code Institute Diploma in Full Stack Development._ <br>
+
+Moreover, for this second attempt, I decided to rebuilt a new website using a single page only with multiple section. I'd also like to apologise for have used the word "inspired" instead of "used" in my previous submission, and thank the assessment team for feedback. 
 
 ## UX
 
@@ -88,28 +90,20 @@ I wanted to create a clean website where users could directly undestrand its pur
 
 - Bootstrap was used to assist with the responsiveness and styling of the website.
 
-3. [jQuery:](https://jquery.com/)
-
-- jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-
-4. [Hover.css:](https://ianlunn.github.io/Hover/)
-
-- Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-
-5. [Font Awesome:](https://fontawesome.com/)
+3. [Font Awesome:](https://fontawesome.com/)
 
 - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 
-6. [Git/Gitpod:](https://git-scm.com/)
+4. [Git/Gitpod:](https://git-scm.com/)
 
 - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
-7. [GitHub:](https://github.com/)
+5. [GitHub:](https://github.com/)
 
 - GitHub is used to store the projects code after being pushed from Git.
 
-8.  [https://tinypng.com/](https://tinypng.com/)
-- for letting me save almost 61% of spaces occupied by images and speeding up the website loading
+6.  [https://tinypng.com/](https://tinypng.com/)
+- Let me save almost 61% of spaces occupied by images and speeding up the website loading
 
 <p align="center">
   <img src="assets/images/tinipng.png">
@@ -117,7 +111,7 @@ I wanted to create a clean website where users could directly undestrand its pur
 
  ## Deployment
 
-This website has been deployed to GitHub Pages as  [ms1.2-astra-rental](https://simocaso.github.io/ms1.2-astra-rental/)
+This website has been deployed to GitHub Pages as  [ms1.2-astra-rental](https://github.com/Simocaso/ms1.2-astra-rental)
 
 The process for deployment is documented below:
 
@@ -132,7 +126,7 @@ The process for deployment is documented below:
 -   Select 'Branch: Master' from the menu
     
 -   This generates a live link for the website, which is now viewable publicly
--  
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -150,8 +144,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 </p>
 
 
-
-
 ### Further Testing
 
 - The Website was tested on Google Chrome, Internet Explorer, and Safari browsers.
@@ -162,6 +154,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+- I used Light house, an open-source automated tool, to test the performance of the website. The site performed a good average score of 91:
+
+<p align="center">
+  <img src="assets/images/lhp.png">
+</p>
 
 ### Known Bugs
 
@@ -190,8 +187,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Code
 
-- Took very very few things (navbar base, footer base, and some actual contents) from my previous website code on Repl,  https://repl.it/@simonecasoni/motocross-rental-bike
-- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+- Took very few things (navbar base, footer base, and some actual contents) from my previous website code on Repl,  https://repl.it/@simonecasoni/motocross-rental-bike
+- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library/templates used throughout the project to make site responsive.
 - [Embedgooglemap](https://www.embedgooglemap.net/en/) for the google maps box code
 
 ### Media
@@ -213,5 +210,5 @@ I would like to mention all the different resources and sites that are out there
 -   Stack Overflow
 -   Slack
 -   coffee (!important)
--   Assessment Team
+-   Assessment Team<br>
 And lastly, I could not leave out the Code Institute team: Alex who has been so comprehensive and kind, my mentor Felipe Souza Alarcon for his help and advices during this project, his flexibility and availability.
