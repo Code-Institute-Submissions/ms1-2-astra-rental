@@ -12,8 +12,9 @@ Simone Casoni's first Milestone project:
 
 # Introduction
 
-"Astra rental" is a motorcycles rental company that aim to offer the opportunity to ride motocross bikes of different engine sizes, and strokes, currently based in Dublin. 
-_Please, note that this site portrays a fictitious business, created purely for the purpose of this exercise. This will be second attempt my first Milestone Project for the Code Institute Diploma in Full Stack Development._
+"Astra rental" is a motorcycles rental company that aim to offer the opportunity to ride motocross bikes of different engine sizes, and strokes, currently based in Dublin.<br> 
+
+_Please, note that this site portrays a fictitious business, created purely for the purpose of this exercise. This will be my Milestone Project second attempt for the Code Institute Diploma in Full Stack Development._
 
 ## UX
 
@@ -30,7 +31,7 @@ I wanted to create a clean website where users could directly undestrand its pur
 
 ### Imagery
 
-- Imagery is important. The large, background image is designed to let you feel involved!
+- Imagery is important. The large, background image is designed to let you feel involved! Also added many images to let the site be very intuitive.
 
 ### Wireframes
 
@@ -81,7 +82,7 @@ I wanted to create a clean website where users could directly undestrand its pur
 
 1. [Repl:](https://repl.it/)
 
-- fast and useful editor!.
+- fast and useful editor!
 
 2. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
@@ -109,7 +110,11 @@ I wanted to create a clean website where users could directly undestrand its pur
 
 8.  [https://tinypng.com/](https://tinypng.com/)
 - for letting me save almost 61% of spaces occupied by images and speeding up the website loading
-  
+
+<p align="center">
+  <img src="assets/images/tinipng.png">
+</p>
+
  ## Deployment
 
 This website has been deployed to GitHub Pages as  [ms1.2-astra-rental](https://simocaso.github.io/ms1.2-astra-rental/)
@@ -200,12 +205,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Acknowledgements and Thanks
 
 I would like to mention all the different resources and sites that are out there, with their respective communities, which have been a huge help for me. I will list some of them below:
-- Repl
+-   Repl
 -   Bootstrap
 -   Git Hub and Git Pod
 -   Font Awesome
 -   jQuery developers
 -   Stack Overflow
 -   Slack
-- coffee (!important)
+-   coffee (!important)
+-   Assessment Team
 And lastly, I could not leave out the Code Institute team: Alex who has been so comprehensive and kind, my mentor Felipe Souza Alarcon for his help and advices during this project, his flexibility and availability.
