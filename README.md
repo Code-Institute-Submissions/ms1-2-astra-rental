@@ -16,7 +16,7 @@ Simone Casoni's first Milestone project:
 
 _Please, note that this site portrays a fictitious business, created purely for the purpose of this exercise. This will be my Milestone Project second attempt for the Code Institute Diploma in Full Stack Development._ <br>
 
-Moreover, for this second attempt, I decided to rebuilt a new website using a single page only with multiple section. I'd also like to apologise for have used the word "inspired" instead of "used" in my previous submission, and thank the assessment team for feedback. 
+Moreover, for this second attempt, I decided to rebuilt a new website using a single page structure with multiple sections. I'd also like to apologise for have used the word "inspired" instead of "used" in my previous submission, and thank the assessment team for feedback. 
 
 ## UX
 
