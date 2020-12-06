@@ -183,7 +183,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   -> fixed it through bootstrap column method and by adjusting the inner div responsiveness 
 
 - Navbar wasn't collapsing after clicking on link<br>
-  -> Added " data-target=".navbar-collapse" data-toggle="collapse" " to the Navbar's Link's Div
+  -> Added " data-target=".navbar-collapse" data-toggle="collapse" " to the Navbar Link's Div
 
 ## Credits
 
