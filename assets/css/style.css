@@ -9,6 +9,8 @@ body {
   padding-bottom: 371px;
   color: #5a5a5a;
   position: relative;
+  overflow-x: hidden;
+
 }
 
 section {
@@ -101,12 +103,13 @@ section {
 /* ABOUTUS */
 
 #aboutus {
-    background-color:rgb(196, 196, 196);
+    background-color:rgb(228, 225, 225);
+    color:rgb(41, 41, 41);
     width: 100%;
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    padding-bottom:40px;
+    padding-bottom:50px;
 }
 
 #aboutus > p {
@@ -238,7 +241,7 @@ margin: 0 30px;
 }
 
 .fa-angle-double-down {
-    color: rgb(255, 217, 0);
+    color: rgb(189, 164, 21);
 }
 
 .fa-facebook {
@@ -325,3 +328,26 @@ color: rgb(126, 126, 126);
     margin-top: 7rem;
   }
 }
+
+/*maps responsiveness*/
+@media (min-width: 768px) {
+  #maps-div {
+    height:270px;
+    width:270px;
+  }
+} 
+
+@media (min-width: 991px) {
+  #maps-div {
+    height:370px;
+    width:370px;
+  }
+} 
+
+@media (min-width: 1200px) {
+  #maps-div {
+    height:445px;
+    width:445px;
+  }
+} 
+

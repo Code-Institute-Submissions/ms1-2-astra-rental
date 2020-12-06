@@ -14,7 +14,7 @@
 
 <!-- Navigation bar-->
 <header>
-  <nav class="navbar navbar-dark fixed-top navbar-expand-sm" id="nav-spy">
+  <nav class="navbar navbar-dark fixed-top navbar-expand-md" id="nav-spy">
     
      <a class="navbar-brand" href="#home">Astra Rental</a>
     
@@ -25,7 +25,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
        
-                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item" ><a class="nav-link" href="#home">Home</a></li>
         
                 <li class="nav-item"> <a class="nav-link" href="#aboutus">About Us</a></li>
 
@@ -62,7 +62,7 @@
                     <div class="carousel-caption text-left">
                         
                         <h1>WHO WE ARE</h1>
-                        <p>Astra Rental was created by a family of great motorcycle enthusiasts who guarantee all the visitors and students of the structure a meticulous and precise attention to details regarding our courses and bikes. Be ready to BRAAAAAP!</p>
+                        <p>Astra Rental was created by a family of great motorcycle enthusiasts<br>who guarantee all the visitors of the structure meticulous and precise attention to details regarding our bikes and experiences.<br>Be ready to BRAAAAAP!</p>
                         <p><a class="btn btn-lg btn--yellow" href="#aboutus" role="button" data-pause="hover">Learn more about us</a></p>
                     
                     </div>
@@ -76,7 +76,7 @@
                     <div class="carousel-caption">
                     
                         <h1>OUR BIKES</h1>
-                        <p>A wide range of services has been designed and made available to our visitors. With Astra Rental, everyone can feel at ease and satisfy their needs, with our full range of motocross bikes.</p>
+                        <p>A wide range of services has been designed and made available to our visitors.<br> With Astra Rental, everyone can feel at ease and satisfy their needs, with our full range of motocross bikes.</p>
                         <p><a class="btn btn-lg btn--yellow" href="#bikes" role="button" data-pause="hover">Motorcycles fleet</a></p>
                     
                     </div>
@@ -90,7 +90,7 @@
                     <div class="carousel-caption text-right">
                     
                         <h1>CUSTOMERS REVIEWS</h1>
-                        <p>Not sure about riding with us? <br> Have a look at the reviews section and find out what our customers (brothers to be precise!) think about us!</p>
+                        <p>Not sure about riding with us? <br> Have a look at the review section and find out what our customers<br>(brothers to be precise!) think about us!</p>
                         <p><a class="btn btn-lg btn--yellow" href="#reviews" role="button" data-pause="hover">Reviews section</a></p>
                     
                     </div>
@@ -132,8 +132,12 @@
         <div class="row featurette">
 
             <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                
+                <h2 class="featurette-heading">Our family</h2>
+                <h2><span class="text-muted">We rent awesome bikes since 1987</span></h2>
+                <p class="lead"></p>
+
+                <p class="lead">Created in 1987 in Dublin by an Italian family, Astra Rental wants to guarantee all the visitors of the structure a meticulous and precise attention to details regarding our bikes and experiences. Be ready to BRAAAAAP!</p>
             </div>
 
             <div class="col-md-5">
@@ -149,7 +153,7 @@
 
         <div class="row featurette">
             
-            <div class="col-md-7">
+            <div class="col-md-7 align-baseline">
 
                 <h2 class="featurette-heading">Our location and contacts</h2>
                 <h2><span class="text-muted">Choose wisely one of the bikes listed below and contact us!</span></h2>
@@ -161,8 +165,9 @@
                             <p>Street street 701,
                                 A1A1A1 City City, Country<br>
                                 Email: info.xx.rental@gmail.com<br>
-                                Phone: +000 000 00000<br>
-                                VAT number: a.m.g. Gmbh 0000000000,Street street 701</p>
+                                Phone: +00 000 00000<br>
+                                Mon - Sun: 07.00 -19:00<br>
+                                </p>
                         </blockquote>
                     </div>
                 </div>
@@ -171,17 +176,9 @@
 
             <!-- thanks to https://www.embedgooglemap.net/en/ for the google maps box html code-->
 
-            <div class="col-md-5 container-fluid">
-                <div class="mapouter " style="padding-right: 0px; padding-left: 0px;">
+            <div class="col-md-5 container-fluid" >
+                <div class="mapouter " style="padding-right: 0px; padding-left: 0px;" id="maps-div">
 
-                    <div class="gmap_canvas" alt="google maps location" style="height: 100%; width:100%;">
-                        <iframe
-                        width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=dublin%20spyre&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                        </iframe>
-                        <a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a>
-                    </div>
-                    
                     <style>
                         
                     .mapouter {
@@ -199,6 +196,16 @@
                         text-align:center;
                     }
                     </style>
+                    
+                    <div class="gmap_canvas" style="height: 100%; width:100%;">
+                        <iframe
+                        width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=dublin%20spyre&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                        <a href="https://www.whatismyip-address.com/nordvpn-coupon/"></a>
+                    </div>
+                    
+                    
                 </div>
             </div>
 
@@ -218,8 +225,8 @@
       <p><i class="fas fa-angle-double-down"></i></p>
 
         <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-        <h1 class="display-4">Our dirt bikes</h1>
-        <p class="lead">Quickly build an effective pricing table for your potential customers with this Bootstrap example. It’s built with default Bootstrap components and utilities with little customization.</p>
+        <h1 class="display-4">Dirt bikes fleet</h1>
+        <p class="lead">Have a look at our dirt bikes here and choose between different engine sizes. We do also have either 4 strokes or 2 strokes bikes for multiple ccm. Take into consideration that all our motorcycles are brand new!</p>
         </div>
 
     <div class="container">
@@ -244,7 +251,7 @@
                         </div>
 
                         <div class="col-sm-7 col-md-8 col-lg-9" >
-                            <img src="assets/images/fe501.jpeg" class="img-fluid" alt="Responsive image">
+                            <img src="assets/images/fe501.jpeg" alt="fe501" class="img-fluid">
                         </div>
                     </div>
 
@@ -269,7 +276,7 @@
                         </div>
 
                         <div class="col-sm-7 col-md-8 col-lg-9">
-                            <img src="assets/images/450-ktm.jpeg" class="img-fluid" alt="Responsive image">
+                            <img src="assets/images/450-ktm.jpeg" alt="k450" class="img-fluid">
                         </div>
                     </div>
 
@@ -297,7 +304,7 @@
                         </div>
 
                         <div class="col-sm-7 col-md-8 col-lg-9">
-                            <img src="assets/images/yz250.jpg" class="img-fluid" alt="Responsive image">
+                            <img src="assets/images/yz250.jpg" class="img-fluid" alt="yz250">
                         </div>
                     </div>
 
@@ -320,30 +327,39 @@
         
         <p><i class="fas fa-angle-double-down"></i></p>
         <h2 class="display-8 text-center" style="margin-top:40px;">Our Reviews</h2>
-       
+
+        <!-- first review -->
+
         <hr class="featurette-divider">
 
         <div class="row featurette">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <div class="col-sm-7">
+                <h2 class="featurette-heading">Excellent!</h2><br>
+                <p class="lead">Had a great experience with Astra rental. Staff was professional and expedient regarding our rental. The husky 501 was perfect.<br><br>
+                <span class="text-muted">Tony C.</span></p>
             </div>
 
-            <div class="col-md-5">
+            <div class="col-sm-5">
                 <img src="assets/images/guy-image.jpg" class="rounded img-fluid" alt="Responsive image">
             </div>
         </div>
+
+        <!-- second review -->
+
               <hr class="featurette-divider">
 
         <div class="row featurette">
 
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-                <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <div class="col-sm-7 order-sm-1 order-md-2">
+                <h2 class="featurette-heading">That's Gas!
+                </h2>
+                <br>
+                <p class="lead">This was a great rental experience and the entire staff was very nice and accommodating to all our needs.<br><br>
+                <span class="text-muted">Jeff D.</span></p>
             </div>
 
-            <div class="col-md-5 order-md-1">
-                <img src="assets/images/guy1-image.jpeg" class="rounded img-fluid" alt="Responsive image" width="auto">
+            <div class="col-sm-5 order-sm-2 order-md-1">
+                <img src="assets/images/guy1-image.jpeg" class="rounded img-fluid" alt="Responsive image">
             </div>
         </div>
 
