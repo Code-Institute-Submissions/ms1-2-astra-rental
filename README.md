@@ -167,21 +167,23 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Fixed bugs, respective solutions
 
-- navbar bottom could have been confused with the background 
+- navbar bottom could have been confused with the background <br>
   -> added a small border on the bottom
   
-- navbar animations don't follow you whenever you scroll the page
+- navbar animations don't follow you whenever you scroll the page<br>
   -> added a scrollspy component
   
-- section's tops are a bit cropped when you click on the navbar's links
+- section's tops are a bit cropped when you click on the navbar's links<br>
   -> added some padding on the top
   
-- couldn't add a backgroung image to carousel's slides
+- couldn't add a backgroung image to carousel's slides<br>
   -> rebuilt the carousel manually and fixed the img paths
 
-- couldn't center the google maps location
+- couldn't center the google maps location<br>
   -> fixed it through bootstrap column method and by adjusting the inner div responsiveness 
 
+- Navbar wasn't collapsing after clicking on link<br>
+  -> Added " data-target=".navbar-collapse" data-toggle="collapse" " to the Navbar's Link's Div
 
 ## Credits
 
