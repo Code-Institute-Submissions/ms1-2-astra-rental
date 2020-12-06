@@ -36,10 +36,10 @@ I wanted to create a clean website where users could directly undestrand its pur
 ### Wireframes
 
 - Wireframe - Loving being old fashioned. Below, you can see some scatches using pen and paper:
-<p align="center"><img src="assets/images/wf-0.png"></p> 
+<p align="center">
+  <img src="assets/images/wf-0.jpg">
+</p>
 
-
-  
 ## User stories:
 
 ### Users:
@@ -161,7 +161,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
-No bugs found/left over so far
+- No bugs found/left over so far
 
 
 ### Fixed bugs, respective solutions
@@ -180,6 +180,7 @@ No bugs found/left over so far
 
 - couldn't center the google maps location
   -> fixed it through bootstrap column method and by adjusting the inner div responsiveness 
+
 
 ## Credits
 
